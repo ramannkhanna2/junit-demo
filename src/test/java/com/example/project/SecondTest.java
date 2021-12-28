@@ -20,7 +20,7 @@ class SecondTest {
 
 	@Test
 	void mySecondTest() {
-		assertEquals(2, 1, "2 is not equal to 1");
+		assertEquals(1, 1, "1 is not equal to 1");
 	}
 
 	@Test
