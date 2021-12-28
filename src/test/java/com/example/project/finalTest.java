@@ -14,7 +14,7 @@ class finalTest {
 	@DisplayName("Final test!")
 	void myFinalTest(TestInfo testInfo) {
 		Calculator calculator = new Calculator();
-		assertEquals(3, calculator.add(1, 1), "1 + 1 should equal 3");
+		assertEquals(2, calculator.add(1, 1), "1 + 1 should equal 2");
 	
 	}
 
