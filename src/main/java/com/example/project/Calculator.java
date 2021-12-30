@@ -32,7 +32,7 @@ public class Calculator {
 		else {
 			return a / b;
 		}
-		return a / b;
+		 
 		
 	}
 
