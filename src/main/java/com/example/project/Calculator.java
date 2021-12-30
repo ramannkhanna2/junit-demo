@@ -16,9 +16,7 @@ public class Calculator {
 		return a + b;
 	}
 	
-	public int add2(int a, int b) {
-		return a + b;
-	}
+	 
 	
 	
 	public int mul(int a, int b) {
