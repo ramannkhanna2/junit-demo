@@ -8,10 +8,10 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInfo;
 
 @Tag("fast")
-class NewTest1 {
+class AddTest {
 
 	@Test
-	void myNewTest1(TestInfo testInfo) {
+	void myAddTest(TestInfo testInfo) {
 		Calculator calculator = new Calculator();
 		assertEquals(3, calculator.add(1, 1), "1 + 1 should equal 3");
 		
