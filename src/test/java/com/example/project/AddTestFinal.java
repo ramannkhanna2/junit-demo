@@ -13,7 +13,7 @@ class AddTestFinal {
 	@Test
 	void myAddTestFinal(TestInfo testInfo) {
 		Calculator calculator = new Calculator();
-		assertEquals(11, calculator.add(5,6), "5 + 6 should equal 11");
+		assertEquals(11, calculator.add(5,5), "5 + 6 should equal 11");
 		
 	}
 
