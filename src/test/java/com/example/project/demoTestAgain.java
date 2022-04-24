@@ -9,7 +9,7 @@ class demoTestAgain {
 
 	 
 	@Test
-	public void test() {
+	public void testAgain() {
 		assertEquals(6, 1 + 5);
 	}
 
