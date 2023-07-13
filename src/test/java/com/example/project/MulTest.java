@@ -14,7 +14,7 @@ class MulTest {
 	@DisplayName("My Mul test! ")
 	void myMulTest(TestInfo testInfo) {
 		Calculator calculator = new Calculator();
-		assertEquals(3, calculator.mul(1, 2), "1 * 2 should equal 2");
+		assertEquals(2, calculator.mul(1, 2), "1 * 2 should equal 2");
 	 
 	}
 
