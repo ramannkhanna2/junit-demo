@@ -13,7 +13,7 @@ class AddTest {
 	@Test
 	void myAddTest(TestInfo testInfo) {
 		Calculator calculator = new Calculator();
-		assertEquals(4, calculator.add(1, 4), "1 + 3 should equal 4");
+		assertEquals(5, calculator.add(1, 4), "1 + 4 should equal 5");
 		
 	}
 
